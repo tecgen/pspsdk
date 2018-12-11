@@ -124,7 +124,7 @@ commands after unpacking it:
     ./configure
     make
     make doxygen-doc
-    make install
+    sudo env "PATH=$PATH" make install
 
     If you haven't installed Doxygen or don't want to build the library
 documentation, you can skip the
